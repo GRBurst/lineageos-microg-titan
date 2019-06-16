@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="prebuilts/prebuiltapks" name="lineageos4microg/android_prebuilts_prebuiltapks" remote="github" clone-depth="1" revision="master" />
+  <project path="prebuilts/prebuiltapks/RemoteDroidGuard" name="MSe1969/RemoteDroidGuard-prebuilt" remote="github" revision="master" />
+
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+  <project path="prebuilts/bromite-webview" name="MSe1969/android_external_bromite-webview" remote="github" revision="master" />
+
+
+  <!-- Optional -->
+  <project path="prebuilts/prebuiltapks/AuroraStore" name="MSe1969/AuroraStore-prebuilt" remote="github" revision="master" />
+  <project path="prebuilts/prebuiltapks/privacy-friendly-netmonitor" name="MSe1969/privacy-friendly-netmonitor-prebuilt" remote="github" clone-depth="1" revision="master" />
+</manifest>
